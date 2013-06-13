@@ -2,7 +2,7 @@ var serviceURL = "http://sacreddeer.herokuapp.com/deer/";
 
 $("#sacreddeerListPage").bind("pageinit", function(event) {
 	$("button").bind("click", function(e) {
-
+        showGPS();
 	});
 });
 
