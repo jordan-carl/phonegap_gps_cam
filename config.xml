@@ -3,19 +3,19 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.phonegap.sacreddeer"
         version   = "0.0.1">
-    <name>Sacreddeer</name>
+    <name>GPS</name>
 
     <description>
-        Sacreddeer simple application to contact with Sacred Deer Power.
+        Test for gps
     </description>
 
-    <author href="http://phonegap.com" email="general.failor@gmail.com">
-        General F.
+    <author href="http://phonegap.com" email="ankulinsky@gmail.com">
+        Kulinsky A.
     </author>
 
     <feature name="http://api.phonegap.com/1.0/device" />
 
-    <preference name="phonegap-version" value="2.2.0" />
+    <preference name="phonegap-version" value="2.2.7" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
