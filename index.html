@@ -4,6 +4,10 @@
 <title>Sacred Deer</title>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <link rel="stylesheet" href="css/jquery.mobile.css" />
+<link rel="stylesheet" href="css/leaflet.css"/>
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="css/leaflet.ie.css" />
+<![endif]-->
 <link rel="stylesheet" href="css/styles.css" />
 </head>
     
@@ -12,17 +16,19 @@
 <div id="sacreddeerListPage" data-role="page" >
 
 	<div data-role="header" data-position="fixed">
-		<h1>GPS</h1>
+		<h1>GPS_test</h1>
 	</div>
 
 	<div data-role="content">
         <button value="try gps"></button>
+        <div id="map"></div>
     </div>
 
 </div>
 
 <script src="js/jquery.js"></script>
 <script src="js/jquery.mobile.min.js"></script>
+<script src="js/leaflet.js"></script>
 <script src="js/script.js"></script>
 
 </body>
